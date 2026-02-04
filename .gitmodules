@@ -1,0 +1,3 @@
+[submodule "libs/greeting"]
+	path = libs/greeting
+	url = https://github.com/unsafe9/gitwork-test-submodule.git
