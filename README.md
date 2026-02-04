@@ -1,7 +1,16 @@
 # Gitwork Test Satellite
 
-Test repository for gitwork plugin skills testing.
+Test repository with submodule support.
 
-## Features
-- Incremental commit testing
-- Create PR testing
+## Submodules
+- `libs/greeting`: Greeting library with formal and casual options
+
+## Usage
+```python
+from libs.greeting.lib import greet, farewell, formal_greet, casual_greet
+
+print(greet("World"))
+print(formal_greet("Smith", "Dr."))
+print(casual_greet("Bob"))
+print(farewell("Everyone"))
+```
