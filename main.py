@@ -1,8 +1,5 @@
 from libs.greeting.lib import greet, farewell, formal_greet, casual_greet
 
-def hello():
-    """Print greeting message."""
-    print("Hello, World!")
 
 def main():
     print(greet("Alice"))

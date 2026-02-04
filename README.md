@@ -7,7 +7,10 @@ Test repository with submodule support.
 
 ## Usage
 ```python
-from libs.greeting.lib import greet, formal_greet
+from libs.greeting.lib import greet, farewell, formal_greet, casual_greet
+
 print(greet("World"))
 print(formal_greet("Smith", "Dr."))
+print(casual_greet("Bob"))
+print(farewell("Everyone"))
 ```
